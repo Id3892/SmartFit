@@ -22,14 +22,7 @@
   crossorigin="anonymous"
 ></script>
 </head>
-  <!-- BORRAR -->
-<script>
-  Sentry.onLoad(function() {
-    Sentry.init({
-        // You can add any additional configuration here
-      });
-  });
-</script>
+  
 <body>
   <form id="loginForm" class="mt-4 fade-in">
     <div class="card">
@@ -125,5 +118,12 @@
   // Asignar la función de validación a los eventos de entrada
   document.getElementById('username').addEventListener('input', validateInput);
   document.getElementById('password').addEventListener('input', validateInput);
+
+   // BORRAR 
+  Sentry.onLoad(function() {
+    Sentry.init({
+        // You can add any additional configuration here
+      });
+  });
 </script>
 </html>
