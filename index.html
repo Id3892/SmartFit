@@ -16,11 +16,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <!-- BORRAR -->
-  <script
-  src="https://js.sentry-cdn.com/508acc93bff95c1eef978815e2c6cc41.min.js"
-  crossorigin="anonymous"
-></script>
 </head>
   
 <body>
@@ -118,12 +113,5 @@
   // Asignar la función de validación a los eventos de entrada
   document.getElementById('username').addEventListener('input', validateInput);
   document.getElementById('password').addEventListener('input', validateInput);
-
-   // BORRAR 
-  Sentry.onLoad(function() {
-    Sentry.init({
-        // You can add any additional configuration here
-      });
-  });
 </script>
 </html>
